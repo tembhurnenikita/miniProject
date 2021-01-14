@@ -1,74 +1,125 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../css/quiz.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
-            <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <title>Quiz_page</title>
-    </head>
-    <body>
-        <div class="view_port">
-            <div class="polling_message">
-              <h2>Entertainment</h2>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="./quiz.css" />
+  </head>
+
+  <body>
+    <header id="pageHeader"><label id="head">Category</label></header>
+    <div id="mainArticle">
+      <p>Question No.</p>
+
+      <h3 id="question"></h3>
+      <br />
+      <div id="option1">
+        <label for="option-1">
+          <input type="radio" name="option" value="" id="option-1" /></label
+        >
+        <span id="result-1"></span>
+      </div>
+      <br />
+      <div id="option2">
+        <label for="option-2">
+          <input type="radio" name="option" value="" id="option-2" /></label
+        >
+        <span id="result-2"></span>
+      </div>
+      <br />
+      <div id="option3">
+        <label for="option-3">
+          <input type="radio" name="option" value="" id="option-3" /></label
+        >
+        <span id="result-3"></span>
+      </div>
+      <br />
+      <div id="option4">
+        <label for="option-4">
+          <input type="radio" name="option" value="" id="option-4" /></label
+        >
+        <span id="result-4"></span>
+      </div>
+    </div>
+    <nav id="mainNav">
+      <p>Total Number of questions:</p>
+      <div id="keyboard">
+        <button class="number" id="1" onclick="">1</button>
+        <button class="number" id="2" onclick="">2</button>
+        <button class="number" id="3" onclick="">3</button>
+        <button class="number" id="4" onclick="">4</button>
+        <button class="number" id="5" onclick="">5</button>
+        <button class="number" id="6" onclick="">6</button>
+        <button class="number" id="7" onclick="">7</button>
+        <button class="number" id="8" onclick="">8</button>
+        <button class="number" id="9" onclick="">9</button>
+        <button class="number" id="10" onclick="">10</button>
+      </div>
+
+      <center>
+        <button
+          id="count"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="
+            width: 100px;
+            height: 40px;
+            border-radius: 3px;
+            background-color: limegreen;
+            font-weight: 700;
+          "
+        >
+          Submit
+        </button>
+      </center>
+    </nav>
+    <!-- modal implementation -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          
-        <div class="container">
-            <!--Row with two equal columns-->
-            <div class="row ">
-                <div class="col-lg-9 col">
-                    <p>Question No. </p>
-                
-                <h3>Add Question here</h3>
-                <br>
-                <div id=''>
-                    <label for='option-1' >
-                      <input type='radio' name='option' value='' id='option-1'/>Use the switch context button in the upper left corner of this page to switch between your personal context (nikitate)</label>
-                    <span id='result-1'></span>
-                  </div>
-                  <br>
-                  <div id=''>
-                    <label for='option-2' >
-                      <input type='radio' name='option' value='' id='option-2'/>Use the switch context button in the upper left corner of this page to switch between your personal context (nikitate)</label>
-                    <span id='result-2'></span>
-                  </div>
-                  <br>
-                  <div id=''>
-                    <label for='option-3' >
-                      <input type='radio' name='option' value='' id='option-3'/>Use the switch context button in the upper left corner of this page to switch between your personal context (nikitate)</label>
-                    <span id='result-3'></span>
-                  </div>
-                  <br>
-                  <div id=''>
-                    <label for='option-4' >
-                      <input type='radio' name='option' value='' id='option-4'/>Use the switch context button in the upper left corner of this page to switch between your personal context (nikitate)</label>
-                    <span id='result-4'></span>
-                  </div>
-                  <center> <button type='button' onclick='' style='width: 100px; height: 40px; border-radius: 3px; background-color: limegreen; font-weight: 700;'>Submit</button>
-                  </center>
-                </div>
-                <div class="col-lg-3 col">
-                    <p>Total Number of questions:</p>
-                    <div id="keyboard">
-                        <button class="number" id="1" onclick="">1</button>
-                        <button class="number" id="2" onclick="">2</button>
-                        <button class="number" id="3" onclick="">3</button><br>
-                        <button class="number" id="4" onclick="">4</button>
-                        <button class="number" id="5" onclick="">5</button>
-                        <button class="number" id="6" onclick="">6</button><br>
-                        <button class="number" id="7" onclick="">7</button>
-                        <button class="number" id="8" onclick="">8</button>
-                        <button class="number" id="9" onclick="">9</button><br>
-                        <button class="number" id="10" onclick="">10</button>
-                    </div>
-                </div>
-            </div>
+          <div class="modal-body">
+            <p>No. of Unattempted Questions :</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Go back to quiz
+            </button>
+            <button type="button" class="btn btn-secondary">
+              Submit Anyway
+            </button>
+          </div>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <footer id="pageFooter">Footer</footer>
+    <script src="questions.js"></script>
+  </body>
 </html>

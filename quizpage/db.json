@@ -1,0 +1,533 @@
+{
+  "Entertaiment": [
+    {
+      "id": 1,
+      "question": "Who is the most followed person on instagram?",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "option4": "Cristiano Ronaldo",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "option4": "Satyajit Ray",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "option4": "Avengers:Endgame",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "option4": "Anil Kapoor",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "option4": "Ramprasad ki tehrvi",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Aishwarya Rai was crowned Miss World in which year?",
+      "Answer": "1994",
+      "option1": "1995",
+      "option2": "1993",
+      "option3": "1996",
+      "option4": "1994",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Who is known as the 'father of Indian Cinema'",
+      "Answer": "Dadasaheb Phalke",
+      "option1": "Dadasaheb Torne",
+      "option2": "Satyajit Ray",
+      "option3": "V. Shantaram",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "Lata Mangeshkar awarded with Bharat Ratna in the year",
+      "Answer": "2001",
+      "option1": "1998",
+      "option2": "2003",
+      "option3": "2005",
+      "option4": "2001",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Real name of Rajnikant?",
+      "Answer": "Shivaji Rao Gaekwad",
+      "option1": "Shivaji Rao Deshmukh",
+      "option2": "Shivaji Rao ",
+      "option3": "Shivaji ",
+      "option4": "Shivaji Rao Gaekwad",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Who is the first indian movie star to be featured on the cover of Time magazine",
+      "Answer": "parveen Babi",
+      "option1": "Zeenat Aman",
+      "option2": "Amir Khan",
+      "option3": "Aishwarya Rai",
+      "option4": "parveen Babi",
+      "weight": 1
+    }
+  ],
+  "com": [
+    {
+      "id": 1,
+      "question": "Ctrl, Shift and Alt are called .......... keys.",
+      "Answer": "modifier",
+      "option1": "modifier",
+      "option2": "function",
+      "option3": "adjustment",
+      "option4": "alphanumeric",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "MS-Word is an example of _____",
+      "option1": "An operating system",
+      "option2": "A processing device",
+      "option3": "Application software",
+      "Answer": "Application software",
+      "option4": "An input device",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "A computer cannot 'boot' if it does not have the _____",
+      "option1": "Compiler",
+      "option2": "Loader",
+      "option3": "Operating System",
+      "Answer": "Operating System",
+      "option4": "Assembler",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "By default, your documents print in ________ mode",
+      "option1": "Landscape",
+      "option2": "Portrait",
+      "Answer": "Portrait",
+      "option3": "Page Setup",
+      "option4": "Print View",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a popular programming language for developing multimedia webpages",
+      "option1": "COBOL",
+      "Answer": "Java",
+      "option2": "Java",
+      "option3": "Basic",
+      "option4": "Assembler",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "The first computer was programmed using .......",
+      "option1": "Assembly language",
+      "Answer": "Machine Language",
+      "option2": "Machine Language",
+      "option3": "Spaghetti code",
+      "option4": "Source code",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "The computer's processor consists of the following parts",
+      "option1": "CPU and Main memory",
+      "option2": "Hard Disk and Floppy Drive",
+      "Answer": "Control Unit and ALU",
+      "option3": "Control Unit and ALU",
+      "option4": "OS and Application",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "A _______ is a software program used to view Web pages.",
+      "option1": "site",
+      "option2": "host",
+      "option3": "link",
+      "Answer": "browser",
+      "option4": "browser",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Where is RAM located?",
+      "Answer": "Mother Board",
+      "option1": "Mother Board",
+      "option2": "Expansion Board",
+      "option3": "External Drive",
+      "option4": "None",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Which key is used in combination with another key to perform a specific task?",
+      "option1": "Function",
+      "option2": "Spacebar",
+      "option3": "Arrow",
+      "option4": "Control",
+      "Answer": "Control",
+      "weight": 1
+    }
+  ],
+  "lit": [
+    {
+      "id": 1,
+      "question": "Who among the following writers won the 2017 Sahitya Academy Award for Hindi literature?",
+      "option1": "Niranjan Mishra",
+      "option2": "Ramesh Kuntal Megh",
+      "Answer": "Ramesh Kuntal Megh",
+      "option3": "Uday Narayana Singh",
+      "option4": "Shrikant Deshmukh",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Name the first Indian to get Nobel prize in literature.",
+      "option1": "Amartya Sen",
+      "option2": "Lal Bahadur Shastri",
+      "option3": "CV Raman",
+      "option4": "Rabindranath Tagore",
+      "Answer": "Rabindranath Tagore",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following awards is given in the field of literature?",
+      "option1": "Arjuna Award",
+      "option2": "Ashok Chakra",
+      "Answer": "Vyas Samman",
+      "option3": "Vyas Samman",
+      "option4": "Bharat Award",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "The religious literature of the Jain at the early stage was written in",
+      "option1": "Ardhamagadhi",
+      "Answer": "Ardhamagadhi",
+      "option2": "Pali",
+      "option3": "Sanskrit",
+      "option4": "None",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Who among the following has not received a Nobel Prize in literature",
+      "option1": "Derek Walcott",
+      "option2": "Pablo Neruda",
+      "Answer": "Churchill",
+      "option3": "Churchill",
+      "option4": "Ernest Hemingway",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which poet is considered a national hero in Greece?",
+      "option1": "John Keats",
+      "option2": "Lord Byron",
+      "Answer": "Lord Byron",
+      "option3": "Solan",
+      "option4": "Sappho",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Rupert Brooke wrote his poetry during which conflict?",
+      "option1": "Boer War",
+      "option2": "Second World War",
+      "option3": "Korean War",
+      "option4": "First World War",
+      "Answer": "First World War",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "A pattern of accented and unaccented syllables in lines of poetry",
+      "option1": "rhyme scheme",
+      "Answer": "meter",
+      "option2": "meter",
+      "option3": "rhythm",
+      "option4": "rhyme",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Applying human qualities to non-human things",
+      "Answer": "personification",
+      "option1": "personification",
+      "option2": "onomatopoeia",
+      "option3": "alliteration",
+      "option4": "metaphor",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "A poem that tells a story with plot, setting, and characters",
+      "option1": "lyric",
+      "option2": "free verse",
+      "Answer": "narrative",
+      "option3": "narrative",
+      "option4": "node",
+      "weight": 1
+    }
+  ],
+  "sport": [
+    {
+      "id": 1,
+      "question": "Rovers Cup is related to which of the following sports?",
+      "Answer": "Football",
+      "option1": "Football",
+      "option2": "Cricket",
+      "option3": "Hockey",
+      "option4": "Tennis",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Who is the President of International World Games Association?",
+      "Answer": "Jose Perurena Lopez",
+      "option1": "Jose Perurena Lopez",
+      "option2": "Andrew Parsons",
+      "option3": "Duane Kale",
+      "option4": "Robert Steadward",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "How many teams had participated in the 2018 Women’s Hockey World Cup?",
+      "option1": "8",
+      "option2": "16",
+      "Answer": "16",
+      "option3": "22",
+      "option4": "20",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which Indian cricketer has scored the maximum runs in ODIs?",
+      "option1": "Kapil Dev",
+      "option2": "Sunil Gavaskar",
+      "Answer": "Sachin Tendulkar",
+      "option3": "Sachin Tendulkar",
+      "option4": "Virat Kohli",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which is first Indian cricket tournament ?",
+      "option1": "Bombey Series",
+      "option2": "Pepsi Cup",
+      "Answer": "Bombay Triangular",
+      "option3": "Bombay Triangular",
+      "option4": "None",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is first cricket club in India ?",
+      "Answer": "Oriental Cricket Club",
+      "option1": "Oriental Cricket Club",
+      "option2": "Maharashtra Cricket Club",
+      "option3": "East Indian Cricket Club",
+      "option4": "Bombay Cricket Club",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Indian played their First T20 Match against _______.",
+      "Answer": "South Africa",
+      "option1": "South Africa",
+      "option2": "Australia",
+      "option3": "England",
+      "option4": "Pakistan",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "Total no. of players playing on the pitch in a hockey match is?",
+      "Answer": "22",
+      "option1": "22",
+      "option2": "16",
+      "option3": "20",
+      "option4": "18",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "The dimensions of a Hockey field are?",
+      "Answer": "91.4m X 55m",
+      "option1": "91.4m X 55m",
+      "option2": "92m X 55m",
+      "option3": "92.5m X 56m",
+      "option4": "91.4m X 56m",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Name the nation that won 2014 Kabaddi World Cup Men's title.",
+      "Answer": "India",
+      "option1": "India",
+      "option2": "Bangladesh",
+      "option3": "Japan",
+      "option4": "Pakistan",
+      "weight": 1
+    }
+  ],
+  "gk": [
+    {
+      "id": 1,
+      "question": "In which place in India can we find cave temples of three faiths?",
+      "option1": "Agra",
+      "Answer": "Ellora",
+      "option2": "Ellora",
+      "option3": "Delhi",
+      "option4": "Madhurai",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Which foreign influence is seen in the rock cut architecture of India?",
+      "option1": "Indo-European",
+      "option2": "Greek",
+      "option3": "Arabic",
+      "option4": "Persian",
+      "Answer": "Persian",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of these cities has the maximum number of historical monuments?",
+      "option1": "Mumbai",
+      "Answer": "Delhi",
+      "option2": "Delhi",
+      "option3": "Kolkata",
+      "option4": "Punjab",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which monument was built in memory of a British monarch?",
+      "option1": "King Richard Memorial",
+      "option2": "Prince of Wales Memorial",
+      "option3": "King George Memorial",
+      "option4": "Victoria Memorial",
+      "Answer": "Victoria Memorial",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Everyone knows 'The Taj Mahal'. It was built by the Emperor Shah Jahan, but for whom?",
+      "option1": "Farida Mahal",
+      "option2": "Mumtaz Mahal",
+      "Answer": "Mumtaz Mahal",
+      "option3": "Jahani Mahal",
+      "option4": "Toba Begum",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which city in India has built a 15.8 m high 'Gandhi Stupa' dedicated to Mahatma Gandhi?",
+      "option1": "Allahbad, UP",
+      "option2": "Varodara, Gujarat",
+      "option3": "Ranchi, Jharkhand",
+      "option4": "Vijaywada, AP",
+      "Answer": "Vijaywada, AP",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "The architecture of the city of Cochin in Kerala reflects the influence of...?",
+      "option1": "The Dutch",
+      "option2": "The Portuguese",
+      "option3": "The British",
+      "option4": "All of these",
+      "Answer": "All of these",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "Where is the world's largest panoramic sculptural relief located?",
+      "option1": "Pondicherry",
+      "option2": "Kanchipuram",
+      "option3": "Mahabalipuram",
+      "option4": "Madhurai",
+      "Answer": "Mahabalipuram",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "In which Indian city would you find the mosque with 'Shaking Minarets'?",
+      "option1": "Allahbad",
+      "option2": "Hyderabad",
+      "option3": "Lucknow",
+      "option4": "Ahmedabad",
+      "Answer": "Ahmedabad",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Which state is known as India's Spice Garden...?",
+      "option1": "Bihar",
+      "option2": "Kerela",
+      "Answer": "Kerela",
+      "option3": "Uttaranchal",
+      "option4": "Karnataka",
+      "weight": 1
+    }
+  ],
+
+  "users": [
+    {
+      "username": "abcd",
+      "email": "jdfkihdf",
+      "password": "4444",
+      "result": "1",
+      "id": "id"
+    }
+  ],
+  "subject_data": [
+    {
+      "username": "abcd",
+      "subject_name": "lit",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    }
+  ],
+  "new": [{}]
+}
